@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Agente Administrativo</title>
+</head>
+
+<body>
+    <main class="principal">
+        <h1 class="titulo">Competencias: Poder Executivo e Legislativo</h1>
+        <div class="QuestionarioContainer">
+            <div class="PerguntaContainer">
+                <h2 class="PerguntaFrase">"<p class="perguntaFrase"></p>"</h2>
+                <h2 class="PerguntaTitulo">
+                    De quem e essa competencia? :
+                </h2>
+            </div>
+            <ul class="perguntasUl">
+                <li class="perguntasItem"><input type="radio" class="inputPergunta" id="inputPergunta1" value="prefeito"
+                        name="ainputPergunta"><label for="inputPergunta1">Privativa Prefeito</label></li>
+                <li class="perguntasItem"><input type="radio" class="inputPergunta" id="inputPergunta2" value="comissao"
+                        name="ainputPergunta"><label for="inputPergunta2">Privativa Comissao</label></li>
+                <li class="perguntasItem"><input type="radio" class="inputPergunta" id="inputPergunta3" value="camara"
+                        name="ainputPergunta"><label for="inputPergunta3">Privativa Camara</label></li>
+                        <li class="perguntasItem"><input type="radio" class="inputPergunta" id="inputPergunta4" value="camaraExclusiva"
+                            name="ainputPergunta"><label for="inputPergunta4">Exclusiva Camara</label></li>
+                <li class="perguntasItem"><input type="radio" class="inputPergunta" id="inputPergunta5" value="presidenteCamara"
+                        name="ainputPergunta"><label for="inputPergunta5">Privativa Presidente da Camara</label></li>
+                <li class="perguntasItem"><input type="radio" class="inputPergunta" id="inputPergunta6" value="mesaDiretora"
+                        name="ainputPergunta"><label for="inputPergunta6">Privativa Mesa Diretora</label></li>
+            </ul>
+            <ul class="buttonsUl">
+                <li class="button"><button class="buttonPergunta buttonConfirmar buttonConfirmarInative"
+                        type="button">Confirmar</button></li>
+                <li class="button"><button class="buttonPergunta buttonProxima" type="button">Proxima</button></li>
+            </ul>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

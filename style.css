@@ -1,0 +1,97 @@
+
+.principal {
+    background-color: #35374B;
+    font-family: "Poppins", sans-serif;
+    color: #f0efef;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.titulo{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.QuestionarioContainer{
+    width: 500px;
+    border: 2px solid #f0efef;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.perguntasItem{
+    margin: 10px;
+    padding: 10px 0 10px 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.perguntasItem input{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.buttonsUl{
+    margin-top: 10px;
+    border-top: 2px solid #f0efef;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0 0 0px;
+}
+.buttonPergunta{
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #f0efef;
+    color: #f0efef;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #35374B;
+    width: 100px;
+    height: 35px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+.button{
+    width: 100%;
+    text-align: center;
+}
+.buttonPergunta:hover{
+    width: 120px;
+}
+.buttonConfirmarInative{
+    pointer-events: none;
+    opacity: 0.8;
+    background-color: #c7c7c749;
+}
+
+.PerguntaFrase{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 2em 0;
+    font-size: 16px;
+}
+.PerguntaContainer{
+    margin: 0em 0 1.2em 0;
+
+}
+.perguntasUl{
+    margin: 1em 0;
+}
+.perguntasItem{
+    border-radius: 5px;
+
+}
+.respostaCorreta{
+    background-color: forestgreen;
+}
+.respostaErrada{
+    background-color: rgb(196, 58, 58);
+}
